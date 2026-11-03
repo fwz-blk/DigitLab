@@ -1,0 +1,27 @@
+
+# Virtual environment
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Model checkpoints and weights
+*.pt
+*.pth
+*.ckpt
+
+# Generated datasets and outputs
+data/
+outputs/
+runs/
+
+# Environment secrets
+.env
+
+# OS files
+.DS_Store
